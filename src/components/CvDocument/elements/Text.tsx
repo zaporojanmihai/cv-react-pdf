@@ -28,7 +28,7 @@ const Text: React.FC<TextProps> = ({ contrast, isBold, style, ...props}) => {
 const defaultStyle = StyleSheet.create({
   text: {
     fontFamily: 'Lato',
-    color: '#242424',
+    color: '#000',
     fontSize: 9,
     textAlign: 'justify'
   },

@@ -22,7 +22,7 @@ const RightSection: React.FC<RightSectionProps> = ({ projects, workExperienceTit
   return (
     <View style={[styles.container]}>
       <View style={styles.header}>
-        <Text style={styles.name}>Radu Nemerenco</Text>
+        <Text style={styles.name}>Mihai Zaporojan</Text>
         <View style={styles.titleContainer}>
           {titleItems.map((titleItem, index) => {
             return (
