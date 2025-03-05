@@ -6,7 +6,7 @@ import ProjectCard, {ProjectCardProps} from "./ProjectCard";
 import Title from "../elements/Title";
 
 const titleItems = [
-  'Senior React Fullstack Developer',
+  'Full Stack Web | React | Developer',
   'Contractor',
   'Freelancer',
 ];
@@ -38,7 +38,7 @@ const RightSection: React.FC<RightSectionProps> = ({ projects, workExperienceTit
       <Hr />
 
       <Title style={styles.aboutMeTitle}>About Me</Title>
-      <Text style={styles.aboutMeDescription}>I am a senior ReactJS developer / contractor / freelancer with <Text style={{fontWeight: 'black'}}>8+ years of experience</Text>, only interested in remote work.</Text>
+      <Text style={styles.aboutMeDescription}>I am a Full Stack | React | WordPress developer / contractor / freelancer with <Text style={{fontWeight: 'black'}}>8+ years of experience</Text>, only interested in remote work.</Text>
       <Text style={styles.aboutMeDescription}>I use my expertise, skills and passion to identify and implement clients’ needs with regards to their software solutions.</Text>
       <Text style={styles.aboutMeDescription}>Drop me a message if you think my expertise could help your organization!</Text>
 

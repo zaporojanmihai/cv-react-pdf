@@ -75,31 +75,33 @@ const LeftSection = () => {
       </LeftSectionPanel>
 
       <LeftSectionPanel title="Skills">
-        <SkillItem years={12} name="JavaScript" />
-        <SkillItem years={7} name="ReactJS" />
-        <SkillItem years={5} name="React Native" />
-        <SkillItem years={5} name="TypeScript" />
-        <SkillItem years={4} name="NodeJS" />
-        <SkillItem years={4} name="Redux" />
-        <SkillItem years={4} name="Unit Testing" />
-        <SkillItem years={4} name="PostgresQL" />
-        <SkillItem years={3} name="MongoDB" />
-        <SkillItem years={3} name="Java" />
-        <SkillItem years={3} name="Spring Framework" />
-        <SkillItem years={7} name="Rest API" />
-        <SkillItem years={4} name="GraphQL" />
-        <SkillItem years={3} name="WebSocket" />
-        <SkillItem years={1} name="Web3.js" />
-        <SkillItem years={5} name="WebPack" />
+        <SkillItem years={8} name="Wordpress Development" />
+        <SkillItem years={8} name="Wordpress Design" />
+        <SkillItem years={7} name="JavaScript" />
+        <SkillItem years={4} name="React" />
+        <SkillItem years={3} name="Redux" />
+        <SkillItem years={7} name="PHP" />
+        <SkillItem years={8} name="CSS3" />
+        <SkillItem years={6} name="SASS" />
+        <SkillItem years={8} name="HTML5" />
+        <SkillItem years={7} name="MySQL" />
+        <SkillItem years={7} name="Online Lead Generation" />
+        <SkillItem years={3} name="Contentful" />
+        <SkillItem years={3} name="GatsbyJS" />
         <SkillItem years={3} name="Styled Components" />
-        <SkillItem years={3} name="Docker" />
+        <SkillItem years={2} name="TypeScript" />
+        <SkillItem years={2} name="GraphQL" />
+        <SkillItem years={2} name="Unit Testing" />
+        <SkillItem years={5} name="Rest API" />
         <SkillItem years={2} name="AWS" />
+        <SkillItem years={3} name="Jenkins" />
+        <SkillItem years={3} name="Docker" />
       </LeftSectionPanel>
 
       <LeftSectionPanel title="Education">
-        <Text contrast isBold>Technical University of Moldova</Text>
-        <Text contrast>BA in Computer Science</Text>
-        <Text contrast>Chisinau, 2011 - 2015</Text>
+        <Text contrast isBold>Ovidius University Constanta</Text>
+        <Text contrast>Bachelor of Computer Science</Text>
+        <Text contrast>Chisinau, 2009 - 2012</Text>
       </LeftSectionPanel>
     </View>
   )
