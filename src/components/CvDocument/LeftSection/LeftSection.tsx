@@ -75,25 +75,24 @@ const LeftSection = () => {
       </LeftSectionPanel>
 
       <LeftSectionPanel title="Skills">
-        <SkillItem years={8} name="Wordpress Development" />
-        <SkillItem years={8} name="Wordpress Design" />
         <SkillItem years={7} name="JavaScript" />
-        <SkillItem years={4} name="React" />
+        <SkillItem years={5} name="React" />
+        <SkillItem years={8} name="Wordpress Dev&Design" />
         <SkillItem years={3} name="Redux" />
+        <SkillItem years={3} name="TypeScript" />
         <SkillItem years={7} name="PHP" />
         <SkillItem years={8} name="CSS3" />
         <SkillItem years={6} name="SASS" />
         <SkillItem years={8} name="HTML5" />
         <SkillItem years={7} name="MySQL" />
         <SkillItem years={7} name="Online Lead Generation" />
-        <SkillItem years={3} name="Contentful" />
-        <SkillItem years={3} name="GatsbyJS" />
-        <SkillItem years={3} name="Styled Components" />
-        <SkillItem years={2} name="TypeScript" />
+        <SkillItem years={5} name="Contentful" />
+        <SkillItem years={4} name="GatsbyJS" />
+        <SkillItem years={5} name="Styled Components" />
         <SkillItem years={2} name="GraphQL" />
-        <SkillItem years={2} name="Unit Testing" />
+        <SkillItem years={3} name="Unit Testing" />
         <SkillItem years={5} name="Rest API" />
-        <SkillItem years={2} name="AWS" />
+        <SkillItem years={3} name="AWS" />
         <SkillItem years={3} name="Jenkins" />
         <SkillItem years={3} name="Docker" />
       </LeftSectionPanel>
