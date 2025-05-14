@@ -51,7 +51,7 @@ export const projectsByName = {
       <><Text>Offered solution of ease to marketing department with the help of Oxygen.</Text></>,
       <><Text>Delved into Accessibility Driven development (ADA/AODA).</Text></>,
     ],
-    skills: ['WordPress Development', 'PHP', 'JavaScript', 'MySQL', 'CSS3', 'HTML Emails', 'Online Lead Generation', 'Jira', 'GIT', 'WordPress Design'],
+    skills: ['WordPress Development', 'PHP', 'JavaScript', 'MySQL', 'CSS3', 'HTML Emails', 'Online Lead Generation', 'Jira', 'GIT'],
   },
   akson: {
     projectName: 'Web Agency',
@@ -67,6 +67,6 @@ export const projectsByName = {
       <><Text>Created custom backends with Advanced Custom Field for ease of client use in WordPress.</Text></>,
       <><Text>Achieved close to maximum scores on page speed and core web vitals tests like lighthouse and gt-matrix.</Text></>,
     ],
-    skills: ['WordPress Development', 'PHP', 'CSS3', 'HTML 5', 'PhpMyAdmin', 'Search Engine Optimization (SEO)', 'Landing Page Optimization', 'WordPress Development', 'WordPress Design'],
+    skills: ['WordPress Development', 'PHP', 'CSS3', 'HTML 5', 'PhpMyAdmin', 'Search Engine Optimization (SEO)', 'Landing Page Optimization'],
   },
 }
