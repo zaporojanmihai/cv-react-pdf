@@ -27,6 +27,24 @@ const LeftSection = () => {
 
         <ContactItem
           icon={(
+            <Svg width="10px" height="10px" viewBox="0 0 24 24">
+              <G>
+                <Path
+                  d="M22 9H2M14 17.5L16.5 15L14 12.5M10 12.5L7.5 15L10 17.5M2 7.8L2 16.2C2 17.8802 2 18.7202 2.32698 19.362C2.6146 19.9265 3.07354 20.3854 3.63803 20.673C4.27976 21 5.11984 21 6.8 21H17.2C18.8802 21 19.7202 21 20.362 20.673C20.9265 20.3854 21.3854 19.9265 21.673 19.362C22 18.7202 22 17.8802 22 16.2V7.8C22 6.11984 22 5.27977 21.673 4.63803C21.3854 4.07354 20.9265 3.6146 20.362 3.32698C19.7202 3 18.8802 3 17.2 3L6.8 3C5.11984 3 4.27976 3 3.63803 3.32698C3.07354 3.6146 2.6146 4.07354 2.32698 4.63803C2 5.27976 2 6.11984 2 7.8Z"
+                  stroke="#22405C"
+                  strokeWidth="2"
+                  fill="rgb(255, 255, 255)"
+                />
+              </G>
+            </Svg>
+          )}
+          text={'https://zaporojanmihai.com'}
+          link={'https://zaporojanmihai.com'}
+        />
+
+
+        <ContactItem
+          icon={(
             <Svg width="10px" height="10px">
               <G transform="scale(0.23)">
                 <Path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
@@ -75,11 +93,8 @@ const LeftSection = () => {
       </LeftSectionPanel>
 
       <LeftSectionPanel title="Skills">
+        <SkillItem years={8} name="WordPress Development" />
         <SkillItem years={7} name="JavaScript" />
-        <SkillItem years={5} name="React" />
-        <SkillItem years={8} name="Wordpress Dev&Design" />
-        <SkillItem years={3} name="Redux" />
-        <SkillItem years={3} name="TypeScript" />
         <SkillItem years={7} name="PHP" />
         <SkillItem years={8} name="CSS3" />
         <SkillItem years={6} name="SASS" />
@@ -93,14 +108,12 @@ const LeftSection = () => {
         <SkillItem years={3} name="Unit Testing" />
         <SkillItem years={5} name="Rest API" />
         <SkillItem years={3} name="AWS" />
-        <SkillItem years={3} name="Jenkins" />
-        <SkillItem years={3} name="Docker" />
       </LeftSectionPanel>
 
       <LeftSectionPanel title="Education">
         <Text contrast isBold>Ovidius University Constanta</Text>
         <Text contrast>Bachelor of Computer Science</Text>
-        <Text contrast>Chisinau, 2009 - 2012</Text>
+        <Text contrast>Constanta, 2009 - 2012</Text>
       </LeftSectionPanel>
     </View>
   )

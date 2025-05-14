@@ -6,7 +6,7 @@ import ProjectCard, {ProjectCardProps} from "./ProjectCard";
 import Title from "../elements/Title";
 
 const titleItems = [
-  'Full Stack Web | React | Developer',
+  'WordPress Developer',
   'Contractor',
   'Freelancer',
 ];
@@ -38,9 +38,9 @@ const RightSection: React.FC<RightSectionProps> = ({ projects, workExperienceTit
       <Hr />
 
       <Title style={styles.aboutMeTitle}>About Me</Title>
-      <Text style={styles.aboutMeDescription}>I am a Full Stack | React | WordPress developer / contractor / freelancer with <Text style={{fontWeight: 'black'}}>8+ years of experience</Text>, only interested in remote work.</Text>
-      <Text style={styles.aboutMeDescription}>I use my expertise, skills and passion to identify and implement clients’ needs with regards to their software solutions.</Text>
-      <Text style={styles.aboutMeDescription}>Drop me a message if you think my expertise could help your organization!</Text>
+      <Text style={styles.aboutMeDescription}>I am WordPress developer / contractor / freelancer with <Text style={{fontWeight: 'black'}}>8+ years of experience</Text>, only interested in remote work.</Text>
+      <Text style={styles.aboutMeDescription}><Text style={{fontWeight: 'black'}}>Hard skills:</Text> Speed Optimization (95%), SSL, Error Handling and Debugging ( Server Errors, CMS Conflicts, PHP core), SEO Optimization, API, Troubleshooting, WordPress Migration, Bug Fixing, Malware Remove, Component Development, WordPress Development, WordPress Themes, WordPress Plugins.</Text>
+      <Text style={styles.aboutMeDescription}><Text style={{fontWeight: 'black'}}>Soft skills:</Text> Clear written and verbal communication, giving and receiving feedback, cross-functional collaboration, adaptability in communication, empathy and patience, team-oriented mindset, remote team collaboration, Proactive mindset, self-management, detail-oriented thinking, continuous learning, problem solving, Agile workflow participation async communication, documentation habits, ownership of deliverables, Slack, Jira, Trello, Zoom, Google Meet, Confluence, GitHub, Bitbucket, Figma.</Text>
 
       <Title style={styles.workExperience}>{workExperienceTitle}</Title>
 
